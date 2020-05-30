@@ -134,7 +134,7 @@ For this project, you will not need to install Unity - you can download it from 
 
 ## 5. Train the agent
 
-To see the steps on how is trained the agent it is recommended to explore the [Tennis.ipynb](https://github.com/ASO92/DRL_p3_CollaborationCompetition_Udacity/blob/master/Tennis.ipynb/Tennis.ipynb) file and follow the instructions on it.
+To see the steps on how is trained the agent it is recommended to explore the [Tennis.ipynb](./Tennis.ipynb) file and follow the instructions on it.
 
 And to see the process followed and the results obtained, please see the:
 
