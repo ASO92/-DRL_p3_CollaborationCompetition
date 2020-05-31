@@ -136,6 +136,8 @@ The rest of the hyperparameters are described below:
 
 In the following figure it is possible to see the results of the training. It is obtained an average of 0,5 in the last 100 episodes in the episode 419.
 
+![Training](./assets/traning_evolution.png)
+
 ![Scores](./assets/noise_200.png)
 
 ### 5. Ideas for Future Work
