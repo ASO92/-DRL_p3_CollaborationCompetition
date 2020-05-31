@@ -88,12 +88,18 @@ local network (θ_local) and target network (θ_target).
 The target network is soft updated using the local network θ_target = τθ_local + (1 - τ)θ_target.
 #### Agents models details
 
+Note the following two considerations when implementing the agents model
+
+##### Ornstein-Uhlenbeck noise
+
 Noise was added using an Ornstein-Uhlenbeck process (as recommended in the paper) theta and sigma were set as the same values as the paper 0.15 and 0.2 respectively. It was noticed that both agents struggled to learn after a considerable amount of episodes. To solve this issue the noise was removed. This made an significant improvement.
 
 **First attept**: the Noise was stopped at `episode 300`. Number of episodes to solve the environment:
 **Second attemtp**: the Noise was stopped at `episode 200`. Number of episoded to solve the environment:
 
-For that reason, doing interporation, it is possible to state that the quicker the noise is cut off, the quicker the agents improve their learning.
+Both implement
+
+##### Weight decay
 
 Another thing it was changed was to set the weight_decay to 0. With weight_decay the agents seemed to get stuck either at the edge of their play area. After removing the weight_decay it was noticed that both agents started to succeeded at tracking the ball correctly.
 
