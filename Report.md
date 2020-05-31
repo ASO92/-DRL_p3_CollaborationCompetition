@@ -92,12 +92,12 @@ Note the following two considerations when implementing the agents model
 
 ##### Ornstein-Uhlenbeck noise
 
-Noise was added using an Ornstein-Uhlenbeck process (as recommended in the paper) theta and sigma were set as the same values as the paper 0.15 and 0.2 respectively. It was noticed that both agents struggled to learn after a considerable amount of episodes. To solve this issue the noise was removed. This made an significant improvement.
+Noise was added using an Ornstein-Uhlenbeck process (as recommended in the presented paper) theta and sigma were set as the same values as the paper 0.15 and 0.2 respectively. It was noticed that both agents struggled to learn after a considerable amount of episodes. To solve this issue the noise was removed. This made an significant improvement.
 
 **First attept**: the Noise was stopped at `episode 300`. Number of episodes to solve the environment:`417`
 **Second attemtp**: the Noise was stopped at `episode 200`. Number of episoded to solve the environment:`419`
 
-Results can be shown in the [report](./Report.md). Both implementations have the approximate same number of episodes to be solved. 
+Results can be shown in the [report](./Report.md). Both implementations have the approximate same number of episodes to be solved.
 
 ##### Weight decay
 
