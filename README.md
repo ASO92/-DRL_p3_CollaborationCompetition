@@ -5,7 +5,7 @@
 This repository includes the code of my personal attempt to solve the third work project of the Udacity Nanodegree.
 In the following photograph it is posible to see a similar representation of the environment solved with two trained agents playing tennis.
 
-![Tennis environment](./trained_agents.gif)
+![Tennis environment](./assets/trained_agents.gif)
 
 ## 2. First steps in the environment
 
