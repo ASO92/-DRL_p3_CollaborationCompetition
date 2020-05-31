@@ -136,7 +136,7 @@ For this project, you will not need to install Unity - you can download it from 
 
 To see the steps on how is trained the agent it is recommended to explore the [Tennis.ipynb](./Tennis.ipynb) file and follow the instructions on it.
 
-And to see the process followed and the results obtained, please see the:
+And to see the process followed and the results obtained, please see the the [Report](./Report.md).
 
 
 #### 5.2 Adjusting the Hyperparameters
