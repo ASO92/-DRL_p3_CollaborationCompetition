@@ -16,6 +16,8 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### 1. Evaluate State & Action Space
 
+
+
 ##### &nbsp;
 
 ### 2. Establish Baseline
@@ -43,6 +45,10 @@ for i in range(1, 6):                                      # play game for 5 epi
 ##### &nbsp;
 
 ### 3. Implement Learning Algorithm
+
+It has been implemented the ddpg algorithm to train both agents, the solution can be found in the following [paper](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf).
+
+For more details of the ddpg model, I suggest to review the [report](https://github.com/ASO92/DRL_p2_ContinuousControl_Udacity/blob/master/Report.md#actor-critic-method) of the previous Udacity project.
 
 #### Summary actor-critic model
 
@@ -102,6 +108,12 @@ The rest of the hyperparameters are described below:
 
 ### 4. Results obtained
 
-In the following point  i
+In the following figure it is possible to see the results of the training. It is obtained an average of 0,5 in the last 100 episodes in the episode 419.
+
+![Scores](./assets/noise_200.png)
 
 ### 5. Ideas for Future Work
+
+ 1. Use Proximal Policy Optimization algorithm instead ddpg to train the agent.
+ 2. Try to implement Prioritized Experience Replay
+ 3. Investigate how to share more information between agents. For example the weights between neural networks.
